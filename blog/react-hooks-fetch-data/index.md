@@ -44,7 +44,7 @@ function App() {
 export default App;
 ```
 
-The App component shows a list of items (hits = Hacker News articles). The state and state update function come from the state hook called `useState` that is responsible to manage the local state for the data that we are going to fetch for the App component. The initial state is an empty list of hits in an object that represents the data. No one is setting any state for this data yet.
+The App component shows a list of items (hits = Hacker News articles). The state and state update function come from the state hook called `useState` that is responsible to managed the local state for the data that we are going to fetch for the App component. The initial state is an empty list of hits in an object that represents the data. No one is setting any state for this data yet.
 
 We are going to use [axios](https://github.com/axios/axios) to fetch data, but it is up to you to use another data fetching library or the native fetch API of the browser. If you haven't installed axios yet, you can do so by on the command line with `npm install axios`. Then implement your effect hook for the data fetching:
 
